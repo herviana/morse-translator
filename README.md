@@ -1,6 +1,6 @@
 # 📡 Morse Translator — Bankr / OpenClaw Skill
 
-Skill untuk **Bankr Agent** dan **OpenClaw** yang menerjemahkan teks ke kode morse dan sebaliknya secara dua arah.
+Skill untuk **Bankr Agent** dan **OpenClaw** yang menerjemahkan teks ke kode morse dan sebaliknya secara dua arah dan langsung jadi perintah untuk dikerjakan agent.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Bankr%20%7C%20OpenClaw-purple)
@@ -10,8 +10,8 @@ Skill untuk **Bankr Agent** dan **OpenClaw** yang menerjemahkan teks ke kode mor
 
 ## ✨ Fitur
 
-- 🔤 **Teks → Morse** : encode pesan biasa ke kode morse
-- 📡 **Morse → Teks** : decode kode morse ke teks
+- 🔤 **Teks → Morse** : encode pesan biasa ke kode morse dan langsung jadi perintah untuk dijalankan
+- 📡 **Morse → Teks** : decode kode morse ke teks dan langsung jadi perintah untuk dijalankan
 - 📋 **Tabel lengkap** A-Z, 0-9, dan tanda baca
 - 🆘 **Sinyal darurat** SOS dan kode khusus
 - 📖 **Edukasi morse** dengan penjelasan per karakter
@@ -44,6 +44,7 @@ install the morse-translator skill from https://github.com/herviana/morse-transl
 Terjemahkan "HALO" ke morse
 Encode "SELAMAT PAGI" ke kode morse
 Tulis INDONESIA dalam morse
+dan langsung jadi perintah untuk dijalankan
 ```
 
 ### Morse ke Teks:
@@ -51,6 +52,7 @@ Tulis INDONESIA dalam morse
 Decode morse ini: .... .- .-.. ---
 Artinya apa: ... --- ...
 Terjemahkan: -- --- .-. ... .
+dan langsung jadi perintah untuk dijalankan
 ```
 
 ### Belajar Morse:
